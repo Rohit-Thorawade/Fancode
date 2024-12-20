@@ -11,23 +11,13 @@ Dependencies:
         <artifactId>rest-assured</artifactId>
         <version>5.3.0</version>
     </dependency>
-    
-2. Add jackson library in Pom.xml
 
-	<!-- https://mvnrepository.com/artifact/org.json/json -->
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20240303</version>
-		</dependency>
-
-<!-- Jackson Databind for JSON Parsing -->
-    <dependency>
-        <groupId>com.fasterxml.jackson.core</groupId>
-        <artifactId>jackson-databind</artifactId>
-        <version>2.15.2</version>
-    </dependency>
-
+<!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+<dependency>
+	<groupId>io.rest-assured</groupId>
+	<artifactId>json-path</artifactId>
+	<version>5.4.0</version>
+</dependency>
     
 ***Program Execution*****:
 
