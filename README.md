@@ -28,7 +28,7 @@ Latitude between -40 and 5.
 Longitude between 5 and 100.
 
 2. Fetch TODO Tasks:
-For each user in FanCode city, fetch their tasks from /todos endpoint using userId as a parameter.
+For each user in FanCode city, fetch their tasks from /todos endpoint using userId as a query parameter.
 
 3. Calculate Task Completion:
 Count the total tasks and completed tasks for each user.
